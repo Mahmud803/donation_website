@@ -1,0 +1,74 @@
+.header{
+    width:100%;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    padding:100px 0px;
+}
+
+
+.header-content h1{
+    text-align: center;
+    color: white;
+    font-size:60px;
+    margin-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.header-content p{
+    font-size:18px;
+    color:white;
+    text-align:center;
+
+}
+
+.header-content{
+    width:800px;
+    margin:0px auto;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+
+.donate_field{
+    text-align:center;
+    
+}
+.donate_field h1{
+    font-size:60px;
+}
+.donate_field p{
+    font-size:30px;
+}
+.boxwrapper{
+    display: flex;
+    padding-left: 18%;
+    padding-right: 25%;
+    width: 50%;
+}
+
+.box{
+    padding: 5%;
+    /* background-image: linear-gradient(orange, tomato); */
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 8%;
+    border: 2px solid black;
+    border-color: brown;
+    color: black;
+}
+#box2{
+    background-image:linear-gradient(brown,rgba(255, 0, 0, 0.24));
+}
+.input_amount{
+    text-align: center;
+    padding:20px 10px;
+}
